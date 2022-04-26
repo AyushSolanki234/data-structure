@@ -61,19 +61,6 @@ struct Node * deleteElement(struct Node * head,int position){
     return head;
 };
 
-struct Node * deletebetweem(struct Node * head,struct Node * position){
-    struct Node * p = head;
-    struct Node * q;
-
-    while(p!=position){
-        q=p;
-        p = p->next;
-    }
-    q->next = p->next;
-    free(p);
-    return head;
-};
-
 void display(struct Node *head){
     struct Node *p=head;
     if(p==NULL){
