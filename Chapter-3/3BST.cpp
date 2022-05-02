@@ -103,18 +103,6 @@ void inorder(struct Node *root){
 int main(){
     struct Node *root = NULL;
     struct Node *n;
-//    root = TreeInsert(root,89);
-//    root = TreeInsert(root,19);
-//    root = TreeInsert(root,34);
-//    root = TreeInsert(root,14);
-//    root = TreeInsert(root,98);
-//
-//    inorder(root);
-//    root = deleteNode(root,19);
-    //root = deleteNode(root,89);
-    //cout<<endl;
-    //inorder(root);
-    //root = searching(root,981);
 
     int choice;
     do{
