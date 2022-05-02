@@ -48,7 +48,7 @@ class BST:
                 root.data = pre.data
                 root.left = self.deleteTree(root.left, root.data)
             else:
-                pre = self.predessor(root)
+                pre = self.succesor(root)
                 root.data = pre.data
                 root.right = self.deleteTree(root.right, root.data)
         return root
