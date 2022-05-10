@@ -64,18 +64,6 @@ void deleteMax(vector <int> &mh,int value){
 int main(){
     vector <int> mh;
 
-//    insertMax(mh,45);
-//    insertMax(mh,15);
-//    insertMax(mh,10);
-//    insertMax(mh,29);
-//    insertMax(mh,1);
-//    insertMax(mh,46);
-//    insertMax(mh,20);
-//    insertMax(mh,30);
-//    display(mh);
-//    deleteMax(mh,15);
-//    display(mh);
-
     int choice;
     do{
         cout<<"1. insert in Max heap"<<endl;
