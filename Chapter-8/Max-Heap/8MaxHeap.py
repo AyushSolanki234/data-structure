@@ -48,7 +48,6 @@ insert(array1, 1)
 insert(array1, 20)
 insert(array1, 13)
 insert(array1, 19)
-# insert(array1, 38)
 insert(array1,50)
 insert(array1,100)
 
